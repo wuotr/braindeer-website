@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base"
+  ],
+  "plugins": [],
+  "env": {
+    "node": true,
+    "mocha": false,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "script"
+  },
+  "rules": {
+    "indent": ["error", 4],
+    "no-console": ["error", { "allow": ["info"] }]
+  }
+}
