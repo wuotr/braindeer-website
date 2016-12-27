@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "The 'braindeer.co' website.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "Wouter Martens, Braindeer BVBA",
   "repository": {
     "type": "git",
@@ -11,9 +13,12 @@
   },
   "license": "ISC",
   "dependencies": {
+    "handlebars": "^4.0.6",
     "metalsmith": "^2.3.0",
     "metalsmith-layouts": "^1.7.0",
-    "metalsmith-markdown": "^0.2.1"
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-serve": "0.0.7",
+    "metalsmith-watch": "^1.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
